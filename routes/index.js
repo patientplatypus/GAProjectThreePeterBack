@@ -29,9 +29,9 @@ app.get('/music/:songname', function(req, res){
       console.log('The length was:', dataLength);
     });
 })
-
-app.listen(8000);
-module.exports = router;
+// 
+// app.listen(8000);
+module.exports = app;
 
 
 
